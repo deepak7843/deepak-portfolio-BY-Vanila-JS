@@ -3,6 +3,7 @@
 /* Main styling */
 html {
     font-size: 110%;
+    font-weight: 200;
 }
 
 html,
@@ -12,9 +13,9 @@ body {
 }
 
 body {
-    color: #423e3a;
+    color: #b43044;
     font-family: "Montserrat", sans-serif;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 300;
     line-height: 1.5;
 }
@@ -24,31 +25,32 @@ p {
 }
 
 #main-btn {
-    border: rgb(255, 175, 151) solid 1px;
+    border: rgb(176, 76, 42) solid 2.4px;
     font-family: "Montserrat", sans-serif;
-    font-size: 0.85rem;
+    font-size: 1rem;
+    font-weight: bold;
     padding: 0.6rem 1.8rem;
     border-radius: 5px;
 }
 #main-btn2 {
-    border: rgb(255, 175, 151) solid 1px;
+    border: rgb(63, 31, 22) solid 1px;
     font-family: "Montserrat", sans-serif;
     font-size: 0.85rem;
     padding: 0.6rem 1.8rem;
     border-radius: 5px;
-    color: rgb(255, 164, 128);
+    color: rgb(108, 60, 41);
     font-size: 25px;
     font-weight: bold;
 }
 
 #main-btn:focus,
 #main-btn:hover {
-    background-color: rgb(255, 164, 128);
-    color: #fffefd;
+    background-color: rgb(100, 59, 43);
+    color: #c19d7a;
 }
 
 #main-btn:hover .fa-caret-down {
-    color: #fffefd;
+    color: #ac8a68;
 }
 
 /*  Containers */
@@ -63,19 +65,21 @@ h1 {
 }
 
 #name {
-    font-size: 5.3rem;
+    font-size: 6rem;
+    font-style: normal;
     margin-top: 3rem;
-    color: rgb(255, 164, 128);
+    color: rgb(96, 30, 57);
     font-weight: 500;
     padding-bottom: 0.8rem;
 }
 
 #pronounce {
     font-size: 1.8rem;
-    color: rgb(255, 164, 128);
+    color: rgb(128, 136, 255);
     margin-bottom: 1.5rem;
     font-weight: 500;
-    font-weight: lighter;
+    font-weight: bolder;
+    font-family: monospace;
 }
 
 #noun {
@@ -85,7 +89,8 @@ h1 {
 
 #definition {
     padding-bottom: 1rem;
-    font-size: 1.2rem;
+    font-weight: bolder;
+    font-size: 1.5rem;
     width: 33rem;
     margin: 0 auto;
     padding-bottom: 2rem;
@@ -93,7 +98,7 @@ h1 {
 
 /* Navbar */
 .bg-white {
-    box-shadow: 0 2px 8px rgba(149, 152, 151, 0.5);
+    box-shadow: 0 2px 8px rgba(70, 136, 114, 0.5);
 }
 
 .navbar {
@@ -121,7 +126,7 @@ h1 {
 .navbar-nav > li > a:hover,
 .navbar-nav > .active > a:focus,
 .navbar-nav > .active > a:hover {
-    color: rgb(255, 164, 128) !important;
+    color: rgb(128, 149, 255) !important;
     font-weight: bold;
 }
 
@@ -186,13 +191,13 @@ h1 {
 
 /* About Me section */
 #about {
-    background-color: #fffefd;
+    background-color: whitesmoke;
     position: relative;
     box-shadow: 0 1px 3px rgba(8, 33, 30, 0.5);
 }
 
 .line {
-    border-top: 2px solid rgb(255, 192, 173);
+    border-top: 2px solid rgb(197, 173, 166);
 }
 
 h2 {
@@ -202,14 +207,14 @@ h2 {
 }
 
 h3 {
-    color: #9da7a6;
+    color: #7d9593;
     font-size: 1.1rem;
     letter-spacing: 1px;
     line-height: 1.5;
 }
 
 i {
-    color: rgb(255, 164, 128);
+    color: rgb(185, 149, 136);
 }
 
 /* Profile Photo */
@@ -226,7 +231,7 @@ i {
 .img-caption {
     font-family: "Playfair Display", serif;
     font-size: 0.75rem;
-    color: #423e3a;
+    color: #746658;
     padding-top: 10px;
 }
 
@@ -293,11 +298,12 @@ hr {
 #button-3,
 #button-4 {
     text-decoration: none;
-    border: rgb(255, 175, 151) solid 1px;
+    border: rgb(163, 151, 255) solid 4px;
     font-family: "Montserrat", sans-serif;
-    font-size: 0.85rem;
+    font-size: 1.2rem;
+    font-weight: bold;
     border-radius: 5px;
-    color: rgb(255, 175, 151);
+    color: rgb(255, 151, 151);
     padding: 0.5rem 1.5rem;
 }
 
@@ -305,8 +311,8 @@ hr {
 #button-2:hover,
 #button-3:hover,
 #button-4:hover {
-    background-color: rgb(255, 164, 128);
-    color: #fffefd;
+    background-color: rgb(150, 68, 35);
+    color: #e9dfd6;
 }
 
 #button-1:hover .fa-caret-down,
@@ -702,7 +708,7 @@ hr {
 }
 
 a {
-    color: rgb(255, 178, 152);
+    color: rgb(140, 203, 126);
     transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
     padding: 0rem 1rem;
     text-decoration: none;
